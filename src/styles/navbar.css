@@ -1,0 +1,23 @@
+.navbar {
+  border-radius: 3px;
+  background-color: #313238;
+}
+
+.navbar__link {
+  margin: 1em;
+  font-size: 1.1em;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  color: #eeece5;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar__link:hover {
+  transform: translateY(-2px);
+  color: #913f3d !important;
+}
+
+.navbar__link--active {
+  border-bottom: 3px solid #913f3d;
+  transition: border-bottom 0.5s ease-in-out;
+}

@@ -1,11 +1,13 @@
 import React, { Component } from "react";
+import ContactForm from "../components/contactForm";
 
 class Contact extends Component {
   state = {};
   render() {
     return (
       <div>
-        <h1>Contact me here!</h1>
+        <p></p>
+        <ContactForm />
       </div>
     );
   }
