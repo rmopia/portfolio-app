@@ -6,7 +6,9 @@ class Projects extends Component {
   render() {
     return (
       <div>
+        <br />
         <h1>Projects</h1>
+        <br />
         <ProjectCards />
       </div>
     );

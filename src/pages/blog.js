@@ -1,17 +1,16 @@
 import React, { Component } from "react";
-import ContactForm from "../components/contactForm";
 
-class Contact extends Component {
+class Blog extends Component {
   state = {};
   render() {
     return (
       <div>
         <br />
+        <h1>Blog</h1>
         <br />
-        <ContactForm />
       </div>
     );
   }
 }
 
-export default Contact;
+export default Blog;

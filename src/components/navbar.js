@@ -31,6 +31,13 @@ class Navbar extends Component {
         <NavLink
           activeClassName="navbar__link--active"
           className="navbar__link"
+          to="/blog"
+        >
+          Blog
+        </NavLink>
+        <NavLink
+          activeClassName="navbar__link--active"
+          className="navbar__link"
           to="/contact"
         >
           Contact
