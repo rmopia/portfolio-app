@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ProjectCards from "../components/projectCards";
 
 class Projects extends Component {
   state = {};
@@ -6,6 +7,7 @@ class Projects extends Component {
     return (
       <div>
         <h1>Projects</h1>
+        <ProjectCards />
       </div>
     );
   }

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Accordian from "../components/accordian";
 
 class About extends Component {
   state = {};
@@ -6,6 +7,7 @@ class About extends Component {
     return (
       <div>
         <h1>About</h1>
+        <Accordian />
       </div>
     );
   }
