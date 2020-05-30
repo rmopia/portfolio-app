@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import "./contactForm.css";
 
 class ContactForm extends Component {
   state = {};
@@ -32,7 +33,9 @@ class ContactForm extends Component {
             </Form.Group>
           </Form>
         </Card.Body>
-        <Button variant="primary">Submit</Button>
+        <Button variant="primary" className="sbmt-btn mx-auto">
+          Submit
+        </Button>
       </Card>
     );
   }

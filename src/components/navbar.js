@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/navbar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedinIn,
+  faYoutube,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 
 class Navbar extends Component {
   render() {
@@ -42,6 +48,19 @@ class Navbar extends Component {
         >
           Contact
         </NavLink>
+        <a
+          href="https://www.linkedin.com/in/robert-mopia/"
+          class="btn btn-link"
+          role="button"
+        >
+          <FontAwesomeIcon icon={faLinkedinIn} />
+        </a>
+        <a href="https://www.google.com" class="btn btn-link" role="button">
+          <FontAwesomeIcon icon={faYoutube} />
+        </a>
+        <a href="https://github.com/rmopia" class="btn btn-link" role="button">
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
       </nav>
     );
   }

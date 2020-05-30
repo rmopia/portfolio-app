@@ -50,6 +50,16 @@ class Accordian extends Component {
             </Card.Body>
           </Accordion.Collapse>
         </Card>
+        <Card>
+          <Card.Header>
+            <Accordion.Toggle as={Button} variant="link" eventKey="3">
+              Hobbyist
+            </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="3">
+            <Card.Body>.</Card.Body>
+          </Accordion.Collapse>
+        </Card>
       </Accordion>
     );
   }
