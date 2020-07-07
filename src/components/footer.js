@@ -5,9 +5,12 @@ class Footer extends Component {
   state = {};
   render() {
     return (
-      <footer id="sticky-footer">
-        <div className="navbar fixed-bottom ftr">
-          <small className="mx-auto">Copyright &copy; robertmopia</small>
+      <footer className="ftr">
+        <div className="foot">
+          <small className="mx-auto">
+            Copyright &copy; {new Date().getFullYear()} robertmopia | All rights
+            reserved
+          </small>
         </div>
       </footer>
     );

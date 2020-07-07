@@ -23,7 +23,27 @@ class Projects extends Component {
     return (
       <div>
         <h1 className="project-h1">My Projects</h1>
-        <CardDeck className="project-cards mx-auto w-75">
+        <CardDeck className="p-deck mx-auto w-75">
+          <ProjectCard
+            title={cardContent[0].title}
+            subtitle={cardContent[0].subtitle}
+            body={cardContent[0].body}
+            rref={cardContent[0].rref}
+          />
+          <ProjectCard />
+          <ProjectCard />
+        </CardDeck>
+        <CardDeck className="p-deck mx-auto w-75">
+          <ProjectCard
+            title={cardContent[0].title}
+            subtitle={cardContent[0].subtitle}
+            body={cardContent[0].body}
+            rref={cardContent[0].rref}
+          />
+          <ProjectCard />
+          <ProjectCard />
+        </CardDeck>
+        <CardDeck className="p-deck mx-auto w-75">
           <ProjectCard
             title={cardContent[0].title}
             subtitle={cardContent[0].subtitle}
