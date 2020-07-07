@@ -7,7 +7,7 @@ class Projects extends Component {
     return (
       <div>
         <br />
-        <h1>Projects</h1>
+        <h1>My Projects</h1>
         <br />
         <ProjectCards />
       </div>

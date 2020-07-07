@@ -25,7 +25,7 @@ class Navbar extends Component {
           className="navbar__link"
           to="/about"
         >
-          About
+          About Me
         </NavLink>
         <NavLink
           activeClassName="navbar__link--active"

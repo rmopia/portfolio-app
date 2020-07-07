@@ -12,16 +12,25 @@ class ContactForm extends Component {
         <Card.Body>
           <Card.Title>Contact Page</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
-            Send a message or concern
+            Shoot me a message!
           </Card.Subtitle>
           <Form>
             <Form.Group controlId="personName">
               <Form.Label>Your Name: </Form.Label>
-              <Form.Control type="text" placeholder="Enter name" />
+              <Form.Control
+                type="text"
+                placeholder="Enter name"
+                autoComplete="off"
+                required
+              />
             </Form.Group>
             <Form.Group controlId="personEmail">
-              <Form.Label>Your Email: </Form.Label>
-              <Form.Control type="email" placeholder="Enter email (optional)" />
+              <Form.Label>Your Email (Optional): </Form.Label>
+              <Form.Control
+                type="email"
+                placeholder="Enter email"
+                autoComplete="off"
+              />
             </Form.Group>
             <Form.Group controlId="personText">
               <Form.Label>Your Message: </Form.Label>
@@ -29,6 +38,9 @@ class ContactForm extends Component {
                 as="textarea"
                 rows="4"
                 placeholder="Enter message"
+                autoComplete="off"
+                required
+                style={{ resize: "none" }}
               />
             </Form.Group>
           </Form>
