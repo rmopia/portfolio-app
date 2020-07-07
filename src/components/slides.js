@@ -9,7 +9,7 @@ class SlideShow extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="C:\ReactApps\portfolio-app\src\images\elcap.jpg"
+            src="holder.js/800x400?text=First slide&bg=373940"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -20,7 +20,7 @@ class SlideShow extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="C:\ReactApps\portfolio-app\src\images\pier.jpg"
+            src="holder.js/800x400?text=Second slide&bg=282c34"
             alt="Third slide"
           />
 
@@ -32,7 +32,7 @@ class SlideShow extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="C:\ReactApps\portfolio-app\src\images\sierra.jpg"
+            src="holder.js/800x400?text=Third slide&bg=20232a"
             alt="Third slide"
           />
 

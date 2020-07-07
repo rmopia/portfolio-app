@@ -10,6 +10,7 @@ class Home extends Component {
     return (
       <div>
         <h1 className="home-h1">Home</h1>
+        <SlideShow />
         <GitHubCalendar
           username="rmopia"
           color="hsl(203, 82%, 33%)"

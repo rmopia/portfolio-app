@@ -8,36 +8,41 @@ class ContactForm extends Component {
   state = {};
   render() {
     return (
-      <Card style={{ width: "24rem" }} className="mx-auto">
+      <Card style={{ width: "24rem" }} className="mx-auto card-contact">
         <Card.Body>
           <Card.Title>Contact Page</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
             Shoot me a message!
           </Card.Subtitle>
           <Form>
+            <Form.Group controlId="personEmail">
+              <Form.Label>Email: </Form.Label>
+              <Form.Control type="email" placeholder="..." autoComplete="off" />
+            </Form.Group>
             <Form.Group controlId="personName">
-              <Form.Label>Your Name: </Form.Label>
+              <Form.Label>Name (Optional): </Form.Label>
               <Form.Control
                 type="text"
-                placeholder="Enter name"
+                placeholder="..."
                 autoComplete="off"
                 required
               />
             </Form.Group>
-            <Form.Group controlId="personEmail">
-              <Form.Label>Your Email (Optional): </Form.Label>
+            <Form.Group controlId="personSubject">
+              <Form.Label>Subject: </Form.Label>
               <Form.Control
-                type="email"
-                placeholder="Enter email"
+                placeholder="..."
                 autoComplete="off"
+                required
+                style={{ resize: "none" }}
               />
             </Form.Group>
             <Form.Group controlId="personText">
-              <Form.Label>Your Message: </Form.Label>
+              <Form.Label>Message: </Form.Label>
               <Form.Control
                 as="textarea"
                 rows="4"
-                placeholder="Enter message"
+                placeholder="..."
                 autoComplete="off"
                 required
                 style={{ resize: "none" }}
