@@ -17,8 +17,8 @@ class Home extends Component {
           </p>
           <hr className="my-4" />
           <p className="l-2">
-            Whether it's programming, debugging, graphic-design or even fashion.
-            I'm all ears.
+            Whether it's programming, testing, graphic design, video-editing or
+            even fashion. I'm all ears.
           </p>
           <p className="lead">
             <Link to="/about">
@@ -38,10 +38,11 @@ class Home extends Component {
         </GitHubCalendar>
         <p className="lead">
           <Link to="/projects">
-            <button className="btn btn-primary btn-lg p-btn">
-              View Projects
-            </button>
+            <button className="btn btn-primary btn-lg p-btn">Projects</button>
           </Link>
+          <a href="https://github.com/rmopia">
+            <button className="btn btn-primary btn-lg git-btn">Github</button>
+          </a>
         </p>
       </div>
     );

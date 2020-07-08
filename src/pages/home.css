@@ -16,9 +16,20 @@
 
 .j-btn {
   border-radius: 32px !important;
+  width: 160px;
+  margin-top: 20px;
+  margin-bottom: -20px;
 }
 
 .p-btn {
+  border-radius: 32px !important;
+  width: 160px;
+  font-family: "Roboto", sans-serif;
+}
+
+.git-btn {
+  margin-left: 30px;
+  width: 160px;
   border-radius: 32px !important;
   font-family: "Roboto", sans-serif;
 }
