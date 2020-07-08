@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import GitHubCalendar from "react-github-calendar";
 import ReactTooltip from "react-tooltip";
+import { Link } from "react-router-dom";
 import "./home.css";
 
 class Home extends Component {
@@ -8,11 +9,23 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className="jumbotron">
-          <h1 class="display-4">Hello, world!</h1>
+        <div className="jumbotron j-tron">
+          <h1 class="display-4">System.out.println( "Hello, there!" );</h1>
+          <p className="lead l-1">
+            Hi, I'm Robert and I'm a newly graduated computer science student
+            whose passion is creating something out of nothing.
+          </p>
+          <hr className="my-4" />
+          <p className="l-2">
+            Whether it's programming, debugging, graphic-design or even fashion.
+            I'm all ears.
+          </p>
           <p className="lead">
-            This is a simple hero unit, a simple jumbotron-style component for
-            calling extra attention to featured content or information.
+            <Link to="/about">
+              <button className="btn btn-primary btn-lg j-btn">
+                Learn More
+              </button>
+            </Link>
           </p>
         </div>
 
@@ -23,6 +36,13 @@ class Home extends Component {
         >
           <ReactTooltip delayShow={50} html />
         </GitHubCalendar>
+        <p className="lead">
+          <Link to="/projects">
+            <button className="btn btn-primary btn-lg p-btn">
+              View Projects
+            </button>
+          </Link>
+        </p>
       </div>
     );
   }
