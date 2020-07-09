@@ -14,7 +14,9 @@ class ProjectCard extends Component {
             {this.props.subtitle}
           </Card.Subtitle>
           <Card.Text>{this.props.body}</Card.Text>
-          <Card.Link href={this.props.rref}>Github</Card.Link>
+          <Card.Link href={this.props.rref} className="btn btn-success">
+            Github
+          </Card.Link>
         </Card.Body>
       </Card>
     );
