@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
+import "./projectCard.css";
 
 class ProjectCard extends Component {
   constructor(props) {
@@ -14,7 +15,10 @@ class ProjectCard extends Component {
             {this.props.subtitle}
           </Card.Subtitle>
           <Card.Text>{this.props.body}</Card.Text>
-          <Card.Link href={this.props.rref} className="btn btn-success">
+          <Card.Link
+            href={this.props.rref}
+            className="btn btn-success green-btn"
+          >
             Github
           </Card.Link>
         </Card.Body>

@@ -12,7 +12,7 @@ class Projects extends Component {
           title: "Bartending Chat Bot",
           subtitle: "Python Regex & Algorithm Chat Bot",
           body:
-            "Responsive chat bot that uses regex in one version and algorithms in another version. Built on python.",
+            "Responsive chat bot that uses regex to identify user input in one version and algorithms in the second rendition. Built on python.",
           rref: "https://github.com/rmopia/bartender-chat-bot",
         },
         {

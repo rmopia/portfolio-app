@@ -1,9 +1,7 @@
-.project-cards {
-  margin-bottom: 2em;
+.project-card {
+  padding-bottom: 20px;
 }
 
-.card {
-  margin-top: 1em !important;
-  margin-left: 2.5em !important;
-  margin-right: 2.5em !important;
+.green-btn {
+  border-radius: 32px !important;
 }
